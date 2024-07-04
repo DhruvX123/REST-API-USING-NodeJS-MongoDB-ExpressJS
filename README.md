@@ -27,7 +27,12 @@ git clone https://github.com/DhruvX123/REST-API-USING-NodeJS-MongoDB-ExpressJS.g
 cd REST-API-USING-NodeJS-MongoDB-ExpressJS
 
 Install dependencies:
+
 npm install
+
+npm init -y
+
+npm install express mongoose body-parser
 
 Set up MongoDB:
 
