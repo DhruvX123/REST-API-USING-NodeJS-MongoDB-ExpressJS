@@ -3,21 +3,21 @@ It is a simple Node.js backend application that allows users to perform CRUD (Cr
 
 - Features
 
-• CRUD operations: Create, Read, Update, Delete items
+ CRUD operations: Create, Read, Update, Delete items
 
-• Pagination for listing items
+ Pagination for listing items
 
-• Search functionality by title or author/director
+ Search functionality by title or author/director
 
-• API documentation with Swagger
+ API documentation with Swagger
 
 - Prerequisites
 
-• Node.js (v14 or higher)
+ Node.js (v14 or higher)
 
-• npm (v6 or higher)
+ npm (v6 or higher)
 
-• MongoDB (local instance or MongoDB Atlas)
+ MongoDB (local instance or MongoDB Atlas)
 
 - Installation
 
@@ -46,7 +46,7 @@ The server will start on http://localhost:3000.
 
 - API Endpoints
 
-• GET /items
+> GET /items
 
 Fetch a list of all items with optional pagination and search query parameters.
 
