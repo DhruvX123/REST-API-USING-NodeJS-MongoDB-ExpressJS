@@ -1,7 +1,7 @@
 # REST-API-USING-NodeJS-MongoDB-ExpressJS
 It is a simple Node.js backend application that allows users to perform CRUD (Create, Read, Update, Delete) operations on a collection of books stored in a MongoDB database. The application includes additional features such as pagination and search functionality.
 
-Features
+- Features
 
 • CRUD operations: Create, Read, Update, Delete items
 
@@ -11,7 +11,7 @@ Features
 
 • API documentation with Swagger
 
-Prerequisites
+- Prerequisites
 
 • Node.js (v14 or higher)
 
@@ -19,7 +19,7 @@ Prerequisites
 
 • MongoDB (local instance or MongoDB Atlas)
 
-Installation
+- Installation
 
 Clone the repository:
 git clone https://github.com/DhruvX123/REST-API-USING-NodeJS-MongoDB-ExpressJS.git
@@ -39,7 +39,7 @@ Start the server:
 npm start
 The server will start on http://localhost:3000.
 
-API Endpoints
+- API Endpoints
 
 • GET /items
 
@@ -75,7 +75,7 @@ Delete an item by its ID.
 
 Example: DELETE '/items/60d2c6b7e87a3a3b5c71c416'
 
-Additional Feature
+- Additional Feature
 
 I have implemented Swagger dependency in the API. It is a framework in which we can test our REST APIs for different HTTP requests i.e. :
 
@@ -89,7 +89,7 @@ DELETE
 
 Swagger documentation is available at 'http://localhost:3000/api-docs'. You can use this interface to explore and test the API endpoints.
 
-Bonus Implemented
+- Bonus Implemented
 
 Pagination: The GET '/items' endpoint supports pagination through the 'page' and 'limit' query parameters.
 
