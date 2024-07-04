@@ -1,7 +1,7 @@
 # REST-API-USING-NodeJS-MongoDB-ExpressJS
 It is a simple Node.js backend application that allows users to perform CRUD (Create, Read, Update, Delete) operations on a collection of books stored in a MongoDB database. The application includes additional features such as pagination and search functionality.
 
-- Features
+> Features
 
  CRUD operations: Create, Read, Update, Delete items
 
@@ -11,7 +11,7 @@ It is a simple Node.js backend application that allows users to perform CRUD (Cr
 
  API documentation with Swagger
 
-- Prerequisites
+> Prerequisites
 
  Node.js (v14 or higher)
 
@@ -19,7 +19,7 @@ It is a simple Node.js backend application that allows users to perform CRUD (Cr
 
  MongoDB (local instance or MongoDB Atlas)
 
-- Installation
+> Installation
 
 Clone the repository:
 git clone https://github.com/DhruvX123/REST-API-USING-NodeJS-MongoDB-ExpressJS.git
@@ -44,9 +44,9 @@ Start the server:
 npm start
 The server will start on http://localhost:3000.
 
-- API Endpoints
+> API Endpoints
 
-< GET /items
+• GET /items
 
 Fetch a list of all items with optional pagination and search query parameters.
 
