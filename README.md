@@ -34,6 +34,8 @@ npm init -y
 
 npm install express mongoose body-parser
 
+npm install swagger-ui-express swagger-jsdoc
+
 Set up MongoDB:
 
 Local MongoDB instance:
@@ -42,6 +44,7 @@ Ensure that MongoDB is installed and running on your local machine. By default, 
 Start the server:
 
 npm start
+
 The server will start on http://localhost:3000.
 
 > API Endpoints
