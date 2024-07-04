@@ -46,7 +46,7 @@ The server will start on http://localhost:3000.
 
 - API Endpoints
 
-> GET /items
+< GET /items
 
 Fetch a list of all items with optional pagination and search query parameters.
 
