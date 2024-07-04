@@ -41,19 +41,19 @@ The server will start on http://localhost:3000.
 
 API Endpoints
 
-GET /items
+• GET /items
 
 Fetch a list of all items with optional pagination and search query parameters.
 
 Example: GET '/items?page=1&limit=1&title=mockingbird'
 
-GET /items/
+• GET /items/
 
 Fetch a single item by its ID.
 
-Example: GET /items/60d2c6b7e87a3a3b5c71c416
+Example: GET '/items/60d2c6b7e87a3a3b5c71c416'
 
-POST /items
+• POST /items
 
 Example: 
 {
@@ -63,13 +63,13 @@ Example:
   "releaseDate": "1925-04-10"
 }
 
-PUT /items/
+• PUT /items/
 
 Update an existing item by its ID.
 
 Example: PUT '/items/60d2c6b7e87a3a3b5c71c416'
 
-DELETE /items/
+• DELETE /items/
 
 Delete an item by its ID.
 
@@ -80,8 +80,11 @@ Additional Feature
 I have implemented Swagger dependency in the API. It is a framework in which we can test our REST APIs for different HTTP requests i.e. :
 
 GET
+
 POST
+
 PUT
+
 DELETE
 
 Swagger documentation is available at 'http://localhost:3000/api-docs'. You can use this interface to explore and test the API endpoints.
